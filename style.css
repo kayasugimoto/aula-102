@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+
+nav{
+    background-color: aquamarine;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav a{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+    font-size: 15pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav a:first-child{
+    color: goldenrod;
+}
+
+nav a:nth-child(3){
+    color: brown;
+}
+
+nav a:hover{
+    color: olivedrab;
+    font-size: 20pt;
+}
