@@ -3,7 +3,7 @@ body{
 }
 
 nav{
-    background-color: aquamarine;
+    background-color: salmon;
     height: 60px;
     display: flex;
     align-items: center;
@@ -12,21 +12,48 @@ nav{
 
 nav a{
     text-decoration: none;
-    color: green;
+    color: wheat;
     font-weight: bold;
     font-size: 15pt;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-nav a:first-child{
+/* nav a:first-child{
     color: goldenrod;
 }
 
 nav a:nth-child(3){
     color: brown;
-}
+} */
 
 nav a:hover{
-    color: olivedrab;
+    color: indianred;
     font-size: 20pt;
+}
+
+header{
+    width: 100%;
+    height: 500px;
+    background-image: url(imagens/catbg.jpg);
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+header h1{
+    margin-left: 100px;
+    color: steelblue;
+    font-family: fantasy;
+}
+
+
+span{
+    color: palevioletred;
+}
+
+header h1:hover{
+    font-size: 70px;
+    color: salmon;
 }
