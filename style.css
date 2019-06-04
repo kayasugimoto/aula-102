@@ -57,3 +57,42 @@ header h1:hover{
     font-size: 70px;
     color: salmon;
 }
+
+section{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+ 
+section div h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: brown;
+}
+
+section div{
+    background-color: wheat;
+    border: 5px solid salmon;
+    margin-top: 20px;
+    width: 200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 50px;
+}
+
+section div input:focus{
+    background-color: rgb(255, 189, 189);
+}
+
+section div input{
+    border-radius: 10px;
+}
+
+section div button{
+    border-radius: 10px;
+    background-color: salmon;
+    cursor: pointer;
+}
